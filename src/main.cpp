@@ -6,3 +6,11 @@ void setup() {
     Serial.println("Servo intiate");
 
 }
+
+void loop() {
+    for (int angle = 0; angle <= 3600; angle += 5) {
+        myServo.write(angle);
+        Serial.print("Angle: ");
+        Serial.println(angle);
+        delay(5);
+    }
