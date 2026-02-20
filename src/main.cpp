@@ -28,5 +28,4 @@ void loop() {
     delay(500);
     myServo.write(10000);
     delay(500);
-
 }
