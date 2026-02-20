@@ -6,8 +6,3 @@ void setup() {
     Serial.println("Servo intiate");
 
 }
-
-
-void loop() {
-// write your code here
-}
